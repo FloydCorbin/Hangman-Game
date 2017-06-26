@@ -1,0 +1,53 @@
+/*/Users/Floyd/Desktop/school/Hangman-Game/assets/css/style.css
+*/
+.gamePage{
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/af/36/8a/af368a090157ce7b54f3f2352a138215.jpg");
+}
+
+.navbar{
+	height: 135px;
+}
+
+main{
+	width: 35%;
+	background-color: rgba(250,235,215,.45);
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+aside{
+	float: left;
+	width: 20%;
+	background-color: rgba(250,235,215,.45);
+	margin-left: 10px;
+
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.window{
+	width: 100%;
+	height: 450px;
+	margin-left: 20px;
+}
+
+.container{
+	width: 100%;
+}
+
+.indent{
+	text-indent: 150px;
+}
+
+div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	background-position: center;
+	background-size: 110%;
+}

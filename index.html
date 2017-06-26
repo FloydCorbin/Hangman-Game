@@ -1,13 +1,69 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Hangman</title>
-	<link rel="stylesheet" type:"css/text" href="assets/css/reset.css">
-	<link rel="stylesheet" type:"css/text" href="assets/css/style.css">
-	<link rel="stylesheet" href="">
+		<link rel="stylesheet" type= "css/text" href="assets/css/reset.css">
+		<link rel="stylesheet" type= "css/text" href="assets/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ 	
+
+ 		<script src="assets/javascript/game.js"></script> 
+
+	<!-- html: 
+	Display basic rules
+	Display wins, losses, remaining guesses, anchor for word-display correct and incorrect guesses
+ -->
+
 </head>
-<body>
+<body class="gamePage">
+<div class="navbar"></div>
+<main>
+	<div class="container">
+		<div class="col-md-6">
+			<div class="row">
+				<p><h1>Hey man, if you are interested in playing the game, just like type any letter. I'm a pacifist. No one gets hanged, <em>man!!!!!</em> </h1></p>
+			</div>
+			<div class="row indent">
+				<p>
+					<h2>
+						Wins:<span id="wins"></span>
+					</h2>
+				</p>
+				<p>
+					<h2>
+						Losses:<span id="losses"></span>
+					</h2>
+				</p>
+
+				<p>
+					<h2>
+						Guesses remaining:<span id="user-choice"></span>
+					</h2>	
+				</p>
+				<p>
+					<h2>
+						Chosen letters:<span id="Variable"></span>
+					</h2>
+				</p>
+
+			</div>
+			<div class="row">
+				<iframe class="window" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284863206&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+		</div>
+	</div>
 	
-</body>
+
+</main>
+<aside>
+
+
+	
+</aside>
+
+	
+	</body>
+
+
 </html>
